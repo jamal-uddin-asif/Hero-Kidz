@@ -22,6 +22,7 @@ const LoginForm = () => {
       email,
       password,
       redirect: false,
+      // redirect false korle callback kah korbe na.tokhon manualy redirect handle korte hobe useRouter diye
       callbackUrl: params.get("callbackUrl") || "/",
     });
 

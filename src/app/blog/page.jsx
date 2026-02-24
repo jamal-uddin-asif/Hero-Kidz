@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function BlogPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
@@ -13,9 +15,8 @@ export default function BlogPage() {
         </p>
       </section>
 
-      {/* Featured Image */}
       <section className="mb-10">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8"
           alt="Kids learning toys"
           className="w-full h-[420px] object-cover rounded-2xl shadow"
@@ -78,7 +79,7 @@ export default function BlogPage() {
 
       {/* Author Box */}
       <section className="mt-16 flex items-center gap-4 p-6 bg-base-200 rounded-2xl">
-        <img
+        <Image
           src="https://i.pravatar.cc/100?img=12"
           className="w-16 h-16 rounded-full"
           alt="Author"
