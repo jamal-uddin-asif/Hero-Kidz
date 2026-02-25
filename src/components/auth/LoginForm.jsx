@@ -69,7 +69,7 @@ const LoginForm = () => {
           <SocialButtons />
 
           <p className="text-center text-sm mt-4">
-            Don’t have an account?{" "}
+            Do not  have an Hero kidz account?{" "}
             <Link
               href={`/register?callbackUrl=${callback}`}
               className="link link-primary"
